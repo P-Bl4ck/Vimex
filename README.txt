@@ -1,2 +1,2 @@
 # Vimex
-Propuesta
+Aprendiendo github
