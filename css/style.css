@@ -1,0 +1,261 @@
+* {
+
+
+
+}
+
+body {
+    background: #f2f2f2;
+
+    max-height: 100%;
+}
+
+footer {
+    background: #595959;
+}
+
+.img-h {
+    height: 450px;
+}
+
+.img-p{
+    height: 800px;
+
+}
+.img-des {
+    height: 280px;
+    min-height: 280px;
+    width: 260px;
+    min-width: 260px;
+}
+
+.full {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+
+.img-Client {
+    height: 150px;
+    width: 150px;
+}
+
+.tag {
+    width: 100%;
+    height: 120px;
+}
+
+.formulario {
+    z-index: 3;
+    position: absolute;
+    background: #fff;
+}
+
+.bg-w {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(99, 160, 204, 0.95) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#63a0cc', GradientType=1);
+}
+
+.bg-w-inverse {
+    background: linear-gradient(to right, rgba(99, 160, 204, 0.95) 30%, rgb(242, 242, 242) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#63a0cc', GradientType=1);
+}
+
+.bg-vimex {
+    background: rgba(99, 160, 204, 1);
+}
+.bg-body {
+    background: #f2f2f2;
+}
+
+/*.error{
+    background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(99,160,204,0.66) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(99,160,204,0.66)));
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(99,160,204,0.66) 100%);
+    background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(99,160,204,0.66) 100%);
+    background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(99,160,204,0.66) 100%);
+}*/
+.parallaxEffect {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+
+.N {
+    background-image: url(../img/T3.jpg);
+    width: 100%;
+}
+
+.N::after, .S::after, .Cl::after, .Co::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.S {
+    background-image: url(../img/T2.jpg);
+    width: 100%;
+}
+
+
+
+.Cl {
+    background-image: url(../img/portada-2.jpg);
+    width: 100%;
+}
+
+
+
+.Co {
+    background-image: url(../img/T.jpg);
+    width: 100%;
+}
+
+.Titulo {
+    z-index: 4;
+}
+
+.fx {
+    font-size: 12em;
+}
+
+.fx-md {
+    font-size: 8em;
+}
+
+.fx-TL {
+    font-size: 2em;
+}
+
+.text-nav {
+    color: white !important;
+    font-size: 1.5em;
+}
+
+.text-nav:hover, .seccion-nav a:hover {
+    color: rgb(25, 93, 166) !important;
+    text-shadow: 0 15px 25px #000 !important;
+}
+
+.seccion-nav .active, .text-nav:active {
+    color: rgb(25, 93, 166) !important;
+    border-bottom: solid 4px rgb(25, 93, 166);
+}
+
+.bg-white {
+    background: white;
+}
+
+.text-vimex {
+    color: rgb(99, 160, 204);
+}
+.text-vimex2 {
+    color: rgb(25, 93, 166);
+}
+.bg-vimex2 {
+    background: rgb(25, 93, 166);
+}
+.border-2{
+    border: 1px solid #b7b7b7;
+}
+
+.positionUp {
+    transform: translate3d(0, -70px, 0);
+    border: 4px solid rgb(25, 93, 166);
+    border-radius: 10px;
+    z-index: 3;
+    background: white;
+    color: black;
+    padding: 40px 10px;
+}
+
+.positionUp p {
+    font-size: 1.2em;
+}
+
+.carousel2 {
+    width: 300px;
+    height: 300px;
+}
+
+#list-tab a, #list-tab1 a, #list-tab2 a{
+text-align: center;
+    font-size: 1.3em;
+    color: dimgray;
+    border: solid 1px gray;
+}
+
+#list-tab .active, #list-tab a:hover, #list-tab1 .active, #list-tab1 a:hover, #list-tab2 .active, #list-tab2 a:hover{
+    background: rgb(99, 160, 204);
+    color: #fff;
+    border: solid 1px rgb(99, 160, 204);
+    font-size: 1.3em;
+}
+
+.list-group > :last-child{
+    box-shadow: none !important;
+    border-bottom: solid 1px gray !important;
+}
+
+#carousel1 .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    text-shadow: none;
+}
+
+#servicices .card{
+    border: none;
+    background: #f2f2f2;
+
+}
+.z-indiceNegativo{
+    z-index: -2;
+}
+.z-indicePos{
+    z-index: 2;
+}
+#p1{
+    background: url("../img/portada-1.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#p2{
+    background: url("../img/portada-3.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#p3{
+    background: url("../img/portada-4.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#contenedor{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.shadow{
+    background: linear-gradient(to right, rgba(99, 160, 204, 0.1) 30%, rgb(0,0,0) 100%);
+}
+.shadow-inverse{
+    background: linear-gradient(to right, rgba(0,0,0,0.60) 30%, rgba(99, 160, 204, 0.1) 100%);
+}
+.hidden{
+    opacity: 0;
+}
+
+
+
+
+
